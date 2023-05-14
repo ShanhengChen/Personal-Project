@@ -1,11 +1,24 @@
-# Personal-Project 
 
-**1. Victoria weather query site：**
+# Weather query site
 
-Use free weather API ( OpenWeatherMap API) to construct a dynamic website which checks the weather conditions in Victoria.
+**Description**
 
-Language involves: **HTML, CSS, JavaScript**
+The Weather query site fetches data from free weather API ( OpenWeatherMap API) to construct a dynamic website that displays weather information for Victoria, Canada.
 
+**Key Technologies**
+
+- HTML
+- CSS
+- JavaScript
+- OpenWeatherMap API
+
+**Features**
+
+- Displays current weather information including description, temperature, humidity, and wind speed.
+- Uses dynamic weather icons based on the weather conditions.
+
+Weather query site demo:
+![Weather query site demo](https://github.com/ShanhengChen/Personal-Project/assets/85982820/677e974f-f489-4cb0-808d-696eb1f6723d)
 
 # Movie Recommendation System
 
