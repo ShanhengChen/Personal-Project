@@ -34,7 +34,7 @@ To use the Movie Recommendation System, please follow these steps to install the
 2. Install the necessary Python packages:
 
 ```shell
-pip install (PySpark Flask SQLAlchemy Pandas Matplotlib)
+pip install (PySpark, Flask, SQLAlchemy, Pandas, Matplotlib)
 ```
 
 Watch the Movie Recommendation System demo video below:
