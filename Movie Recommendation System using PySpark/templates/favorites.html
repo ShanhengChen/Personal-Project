@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<style>
+    body {
+      background-image: url("{{ url_for('static', filename='background/Abdelrahman Ismail.jpg') }}");
+      background-size: cover;
+      color: #af7a2a;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+
+<h1 style="text-align: center; color: #e4b268;">Personal Cinema</h1>
+{% if movies|length < 1 %} <h4 style="text-align: center">There are no liked movies.</h4>
+    {% else %}
+    <table class="movies-table">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Genre</th>
+            <th></th>
+        </tr>
+        {% for movie in movies %}
+        <tr style='padding-right: 10px;'>
+            <td>{{ movie.id }}</td>
+            <td>{{ movie.name }}</td>
+            <td>{{ movie.genre }}</td>
+            <td>
+                <a href="/unlike/{{movie.id}}">
+                    <img class="unlike-image" src="{{ url_for('static', filename='icon/x-solid.svg', _external=True) }}"
+                        alt="unlike icon">
+                </a>
+            </td>
+
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+
+    {% endblock %}
