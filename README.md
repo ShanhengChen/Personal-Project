@@ -15,7 +15,7 @@ This Python project utilizes PySpark, Flask, and SQLAlchemy to provide personali
 
 **Key Technologies**
 
-- Programming Languages: Python, HTML, CSS
+- Programming Languages: Python, HTML, CSS 
 - Data Processing and Analysis: PySpark, Pandas
 - Web Development: Flask, SQLAlchemy
 - Data Visualization: Matplotlib
@@ -31,8 +31,8 @@ This Python project utilizes PySpark, Flask, and SQLAlchemy to provide personali
 To use the Movie Recommendation System, please follow these steps to install the required dependencies:
 
 1. Install Python and Java (JDK) on your machine.
-2. Run the following command to install the necessary Python packages:
+2. Install the necessary Python packages:
 
 ```shell
-pip install PySpark Flask SQLAlchemy Pandas Matplotlib
+pip install (PySpark Flask SQLAlchemy Pandas Matplotlib)
 
