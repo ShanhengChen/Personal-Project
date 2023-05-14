@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<style>
+    body {
+      background-image: url("{{ url_for('static', filename='background/Damian Karpiński.jpg') }}");
+      background-size: cover;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+
+<h1>Guess you like</h1>
+{% if recommend_list|length < 1 %} <h4 style="text-align: center">You should like some movies first.</h4>
+    {% else %}
+    
+    <br> </br>
+    <table class="recommend">
+      <caption>Daily Picks: Non-stop Great Films</caption>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Genre</th>
+      </tr>
+      {% for movie in recommend_list %}
+      <tr style='padding-right: 10px;'>
+        <td>{{ movie[0] }}</td>
+        <td>{{ movie[3] }}</td>
+        <td>{{ movie[4]}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <br> </br>
+    {% endif %}
+{% endblock %}
