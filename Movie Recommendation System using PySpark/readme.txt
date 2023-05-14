@@ -1,5 +1,5 @@
-#Project Name: Movie Recommendation System
-##Author : Shanheng Chen
+Project Name: Movie Recommendation System
+Author : Shanheng Chen
 
 ##Description:
 
