@@ -3,7 +3,9 @@ Author : Shanheng Chen
 
 ##Description:
 
-This Python project utilizes PySpark, Flask, and SQLAlchemy to provide personalized movie recommendations based on user preferences. The system analyzes movie rating data collected from users and presents popular genres and movies on a web page built with Flask. Users can manage their favorite movies using SQLAlchemy, and the system recommends movies based on their preferences.
+This Python project utilizes PySpark, Flask, and SQLAlchemy to provide personalized movie recommendations based on user preferences. 
+The system analyzes movie rating data collected from users and presents popular genres and movies on a web page built with Flask. 
+Users can manage their favorite movies using SQLAlchemy, and the system recommends movies based on their preferences.
 
 ##Key Technologies:
 
