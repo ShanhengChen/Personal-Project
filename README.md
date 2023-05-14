@@ -35,4 +35,13 @@ To use the Movie Recommendation System, please follow these steps to install the
 
 ```shell
 pip install (PySpark Flask SQLAlchemy Pandas Matplotlib)
+```
+
+Watch the Movie Recommendation System demo video below:
+
+
+https://github.com/ShanhengChen/Personal-Project/assets/85982820/c1ca1cac-6031-499f-9ea3-8b8296f9a934
+
+
+
 
