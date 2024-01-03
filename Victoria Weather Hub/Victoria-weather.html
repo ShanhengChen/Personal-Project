@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weather-Check-Web</title> 
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("clouds.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .div1 {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      letter-spacing: 1px;
+      color: #30968a;
+    }
+
+    .div1 p {
+      font-size: 20px;
+    }
+
+    .box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      position: fixed;
+      bottom: 0;
+      left: 100;
+      width: 100%;
+      text-align: center;
+      padding: 1px 0;
+      margin: 0 10px;
+
+    }
+
+    .img-size {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+</head>
+
+<body> <!--construct a field for displaying  -->
+  <div
+    style="width: 400px; height: 500px; background-color: #e8f4cc; opacity: 0.8; padding: 10px; border: 2px solid #d0ddbf;">
+  </div>
+
+  
+  </div>
+
+  <div class="div1"> <!--display collected info from openweather.com -->
+    <h1 style="font-size:36px;">Victoria Weather</h1>
+    <img id="weather-image" src="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/02d.png"
+      alt="404">
+    <p>Description: <span id="weather-description"></span></p>
+    <p>Temperature: <span id="temperature"></span>℃</p>
+    <p>Humidity: <span id="humidity"></span>%</p>
+    <p>Wind speed: <span id="wind-speed"></span>m/s</p>
+  </div>
+
+  <div class="box"> <!--gitbuh at bottom left which link to shanhengchen's github  -->
+    <a href="https://github.com/ShanhengChen?tab=repositories">
+      <img src="./GitHub-Mark.png" alt="GitHub Mark" class="img-size">
+    </a>
+  </div>
+
+
+  <script src="get_weather_api.js"></script> 
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+html {
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+
+
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4) ;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-label {
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color:lightseagreen;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+        background-color: #0056b3;
+}
+
+
+/*  content area */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* news article styles */
+.news-article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    list-style-type: none;
+    line-height: 2;
+    border-collapse: separate;
+    border-spacing: 10px;
+    font-family: Georgia, serif;
+
+}
+/* super long link handing */
+.news-article a {
+   overflow-wrap: break-word; 
+}
+
+/* for new heading */
+.section-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+/* for category and language be in the same line */
+.info-row {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    gap: 10px;
+}
+

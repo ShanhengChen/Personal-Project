@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body style="background-image: url('../image/Ed Robertson1.jpg'); background-size: cover; background-repeat: no-repeat;">
+
+
+@if (ViewBag.NewsResponse != null)
+{
+
+        <div class="container">
+            <h2 class="section-heading">News Results</h2>
+            <ul class="news-list">
+                @foreach (var article in ViewBag.NewsResponse.results)
+                {
+                    <li class="news-article">
+                        <h4>@article.title</h4>
+
+                        @if (!string.IsNullOrEmpty(article.link))
+                        {
+                            <p><strong>Link:</strong> <a href="@article.link" target="_blank">@article.link</a></p>
+                        }
+
+                        @if (!string.IsNullOrEmpty(article.imageUrl))
+                        {
+                            <img src="@article.imageUrl" alt="Article Image" />
+                        }
+
+                        @if (article.countries != null && article.countries.Count > 0)
+                        {
+                            <p><strong>Countries:</strong> @string.Join(", ", article.countries)</p>
+                        }
+
+                        @if (article.category != null && article.category.Count > 0 && !string.IsNullOrEmpty(article.language))
+                        {
+                            <p class="info-row">
+                                <strong>Category:</strong> @string.Join(", ", article.category)
+                                <strong>Language:</strong> @article.language
+                            </p>
+                        }
+
+                    </li>
+                }
+            </ul>
+        </div>
+        }else{
+            <p> Any interested? </p>
+}
+
+
+</body>
+</html>

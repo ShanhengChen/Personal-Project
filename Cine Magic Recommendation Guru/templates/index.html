@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<style>
+  body {
+    background-image: url("{{ url_for('static', filename='background/Ed Robertson1.jpg') }}");
+    background-size: cover;
+    @keyframes likeAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.like-button:active .unlike-image {
+  animation: likeAnimation 0.5s;
+}
+  }
+</style>
+{% endblock %}
+
+{% block body %}
+
+<div class="content">
+    <h1 style="text-align: center">Movie List</h1>
+    {% for movie in movies.head(30) %}
+    <div class="movie-container">
+        <div class="movie-info">
+          <h3>Id:&nbsp;{{ movie[0] }}</h3>
+          <p>Name:&nbsp;{{ movie[1] }}</p>
+          <p>Genre:<span class="id-heading">Id:</span>{{ movie[2] }}</p>
+        </div>
+        <div class="movie-action">
+          <form action="/" method="POST">
+            <input type="hidden" name="id" value="{{ movie[0] }}">
+            <input type="hidden" name="name" value="{{ movie[1] }}">
+            <input type="hidden" name="genre" value="{{ movie[2] }}">
+            <button type="submit" class="icon-button">
+              <img class="unlike-image" src="{{ url_for('static', filename='icon/heart-solid.svg', _external=True) }}" alt="unlike icon">
+            </button>
+            
+        </form>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+    <br> </br>
+    <h4> Upgrade to premium membership and gain access to over 9,714 movies today! </h1>
+    <br> </br>
+{% endblock %}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% block head %} {% endblock %}
+  </head>
+    <body>
+      <nav >
+        <ul>
+          <li><a href='/home.html'>Home</a></li>
+          <li><a href='/'>Movies</a></li>
+          <li><a href='/favorites.html'>Favorites</a></li>
+          <li><a href='/recommend.html'>Recommendations</a></li>
+        </ul>
+      </nav>
+        {% block body %} {% endblock %}
+      </body>
+</html>
+    

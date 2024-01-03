@@ -1,0 +1,29 @@
+﻿
+@using News.Models
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"] = "Home Page"</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body style="background-image: url('../image/noName_13.jpg'); background-size: cover; background-repeat: no-repeat;">
+
+
+    <h2 class="text-center">News Api demo (.net 7.0)</h2>
+    <br>
+    <div class="search-container">
+        @using (Html.BeginForm("SearchNews", "Home", FormMethod.Get))
+        {
+            <label class="search-label" for="search-query">Search Query:</label>
+            <input class="search-input" type="text" id="search-query"
+                   placeholder="Enter your search query ie. pizza , youtube .." name="searchQuery">
+            <br>
+            <button class="search-button" type="submit">Search</button>
+        }
+    </div>
+</body>
+</html>
+
