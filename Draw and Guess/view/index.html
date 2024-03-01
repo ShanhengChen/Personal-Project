@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.3.0/fabric.min.js"></script>
+  <link rel="stylesheet" href="/view/format.css">
+  <title>Draw and Guess</title>
+</head>
+<body>
+  <div class="PageMain">
+    <div class="canvasMain">
+      <p>Try Drawing below</p>
+  
+      <div class="sidenav">
+        <button id="drawButton" class="ac" onclick="toggleDraw()">Draw &#9998; & Select</button>
+        <button style="font-size: 16px;" onclick="toggleEraser()">Eraser &#9003; </button>
+        <button id="undoButton" onclick="undo()">Undo &#8630;</button>
+        <button onclick="cleanCanvas()">Clear &#10006;</button>
+        <button onclick="saveAndSendToGoogleCloudVision()">Guess &#127942;</button>
+      </div>
+  
+      <canvas id="demoCanvas"></canvas>
+    </div>
+  
+    <div class="labelListContainer">
+      <p>Server Guess</p>
+      <ul id="labelList"></ul>
+    </div>
+  
+  </div>
+  
+  <script src="/view/canvashandler.js"></script>
+</body>
+</html>

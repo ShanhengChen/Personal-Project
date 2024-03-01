@@ -1,0 +1,43 @@
+body {
+  background-color: #ededed;
+  margin: 0;
+  padding: 0;
+}
+
+.PageMain {
+  display: flex;
+}
+
+.canvasMain {
+  flex: 1;
+  padding-left: 100px;
+}
+
+.sidenav {
+  width: 100px;
+  position: fixed;
+  top: 40px;
+  left: 0px;
+}
+
+.sidenav button {
+  padding-top: 10px;
+  margin-top: 10px;
+  border: 1px solid #75E6DA;
+  font-size: 20px;
+  width: 100px;
+  color: #189AB4;
+  display: block;
+}
+
+.sidenav button:hover {
+  color: #75E6DA;
+}
+
+.labelListContainer {
+  min-width: 700px; 
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+

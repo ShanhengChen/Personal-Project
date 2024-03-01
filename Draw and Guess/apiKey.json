@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "carbide-kite-412605",
+  "private_key_id": "6dc28f565b8d89739be011f2085ad7d155a916e4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCbjteskJl2EGFn\nuz9NB4rv1hM7TNE/jB53SiWi8kIcnSl+SIGCqNsFkXjok0jh+2XJW/0u7xN+dBKE\nL5e9cbM+A91UI7XO9WS+aWsD8jNrVLmJ/e72rbcLl3fnt06RFP9wqYVz1JfvuI/p\nWnBlvd7RRxIy0ixzY9zCVqucJ3u7xMxxYLLr5zVhpPujLmEi1z3jiQ36FuvaXnVY\nALjK1uA+85pI5NWUJ7bMIk/lFpokE9YHfUbjiDGEWGCSmDYfpcfPBFeEM3qy8hQa\nFci01ZqX6rcY6BdvxvXOp2CDyvbmOyLuGKtwHNLkbCYE5P9brPHyhhZCl9nQQEBs\nHNScwJ/hAgMBAAECggEAC1O6ymzikc1mTFd/B+DCWg22a4lfzL7rGoBWjn+RtxPu\nGS0WKiGZxjVmLphH9LWZvzBwto3P13PEA+ZTyCaK+Ntu7sElbFcj0XYrZdeJbTm3\ng2/vSjzSwPgz8dZgFRIoegeMCUfMEvd3WjR8zfnGC2rfjT4O4M2fHfMR7q5U1RKl\ns0uKT7lTKP73QlkkMiroUbetdNhZei8ZaT/31BJps7901azR5wi6vwM2UERfFvkV\npme3bGHd8EMSJbkpY+yxoqV1/Ezb6F53PdIIJvvzHb+X+OlcARCRFd/Bjb/nVyiM\nXFNJD0AmsfQcBTo7DP5IMwcUiKwGo/HjiZILPbBkWQKBgQDXYsR3CiRIaVNS8zvM\nLy5Jrg0uB5PogbE6FNQ3/yGz33QcHDOzlkYf7azJPVaHKyA5gn7I4qfDaZm9nPdL\nfFMnI/T0Js2VmrBhg+nFZdJEi47ojAcy31VwC3T+CZbGBF1KVjhaoxgkGylDaecG\nIY3R7dwu7wEman91nODpV2+yaQKBgQC45Ae5zkSC1G/tgp3GDcXUOSHE148WA1SO\n4fnPq/GW7hBsZ4TFYbbEBK00jYxaz7B5ly4f57AxXx8KjwsDZ2Pl5hWcTuphPlns\n/ZI27XRR+xLfGy42h+xr6mElkeyEPjqY1h+OQX13ksMJllF2q5UuLWDo5vfQkzxU\noc5QBEjiuQKBgQC2oSbZkR3m0Hg4s8oWfkMPcqf2SbKeyamPCC5SNOFM9cIsO7WT\nJ27aj9uc34fJIUY3vXDnwVhjF92mq7v8o7SWUaTYiTZ1Di9U4FeOa6H5QSSyBlns\nRvbZBL300gioavb3m1g5cmV76BP694dO6ZCpWrkCiuI8wrzE63rCIMOzUQKBgDZV\nNHwCxJlZymaWmrzH8VnTTDwnSHIkmmW+vIWttrouzX690QOcGnRyF2A5NIS/QdIJ\nflF76YgottuIe6kNagr2WWVsv23CP/Tn817W2vb4fGw59ZOqz+xKnS/IOSQHkXq2\neeF5F2DbLRuVI+1msNk4FqF6tlqB2hnYzuMuzyhpAoGBAIyRNAFzHD4dAbB+0BGM\nuicTD8JEpiabbFUeFsvBm0wuLnkqJkGS9xJp+E8uAuGYC74ZYo763cpHpxnwvf0K\nXdEsPevwiRhX48oQ+cXfaWdPem5qWpteDpMEXGy5CR1e6AwzWa8L4IJod4BnQlzu\nbUAeVBShnIu4JHn87qFiU0PB\n-----END PRIVATE KEY-----\n",
+  "client_email": "simonchen@carbide-kite-412605.iam.gserviceaccount.com",
+  "client_id": "104250345843150643169",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/simonchen%40carbide-kite-412605.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
