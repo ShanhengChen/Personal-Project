@@ -1,24 +1,24 @@
 
-# Victoria Weather Hub
+# Ebook Paypal Payment
 
-**Description**
+**Demo**
 
-The Weather query site fetches data from free weather API ( OpenWeatherMap API) to construct a dynamic website that displays weather information for Victoria, Canada.
+![1](https://github.com/ShanhengChen/Personal-Project/assets/85982820/e1d36fff-5f28-4eb4-aa2b-06047707b7f2)
 
-**Key Technologies**
 
-- HTML
-- CSS
-- JavaScript
-- OpenWeatherMap API
 
-**Features**
+# Pixel Flow Graph-Based Image Flood Fill
 
-- Displays current weather information including description, temperature, humidity, and wind speed.
-- Uses dynamic weather icons based on the weather conditions.
+**Demo**
 
-**Victoria Weather Hub demo:**
-![Weather query site demo](https://github.com/ShanhengChen/Personal-Project/assets/85982820/677e974f-f489-4cb0-808d-696eb1f6723d)
+![Dfs](https://github.com/ShanhengChen/Personal-Project/assets/85982820/b259d89a-4bdb-439f-aa4c-ffea02e2fdd6)
+![BFS](https://github.com/ShanhengChen/Personal-Project/assets/85982820/8c006514-5f8e-4cef-9333-faf861782c27)
+
+# Draw and Guess
+
+**Demo**
+
+![draw and guess](https://github.com/ShanhengChen/Personal-Project/assets/85982820/3bafda32-e98d-43c4-9aa1-e140df00b1ba)
 
 
 # News Query Website (Azure)
@@ -130,3 +130,32 @@ pip install (selenium, pandas, ddddocr)
 ![2](https://github.com/ShanhengChen/Personal-Project/assets/85982820/70c47834-1892-4c6c-a355-4eb2803557a0)
 
 # 2D Vampire Survival-Like Game
+
+
+# Flappy Brid
+
+**Demo**
+
+![flappy bird](https://github.com/ShanhengChen/Personal-Project/assets/85982820/d3f6f78c-c7e0-49c8-a60e-0a8396c781cd)
+
+
+# Victoria Weather Hub
+
+**Description**
+
+The Weather query site fetches data from free weather API ( OpenWeatherMap API) to construct a dynamic website that displays weather information for Victoria, Canada.
+
+**Key Technologies**
+
+- HTML
+- CSS
+- JavaScript
+- OpenWeatherMap API
+
+**Features**
+
+- Displays current weather information including description, temperature, humidity, and wind speed.
+- Uses dynamic weather icons based on the weather conditions.
+
+**Victoria Weather Hub demo:**
+![Weather query site demo](https://github.com/ShanhengChen/Personal-Project/assets/85982820/677e974f-f489-4cb0-808d-696eb1f6723d)
