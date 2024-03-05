@@ -16,6 +16,8 @@
 
 # Draw and Guess
 
+link: https://august-shield-411906.wm.r.appspot.com/
+
 **Demo**
 
 ![draw and guess](https://github.com/ShanhengChen/Personal-Project/assets/85982820/3bafda32-e98d-43c4-9aa1-e140df00b1ba)
@@ -47,6 +49,7 @@ The News Query Web is a dynamic web application that leverages the NewsData API 
 **Demo**
 
 https://news-web.azurewebsites.net/
+
 ![1](https://github.com/ShanhengChen/Personal-Project/assets/85982820/05775c87-3c8f-43d6-9b2a-c2df7d46af73)
 
 ![2](https://github.com/ShanhengChen/Personal-Project/assets/85982820/5f5c1914-c25c-4842-87b5-61d7506bcf7f)
